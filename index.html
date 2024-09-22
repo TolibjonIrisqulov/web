@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Budilnik</title>
+</head>
+<body>
+    <div class="a1">
+        <label>
+            <input type="radio" name="mode" value="day" checked> Kunduzgi
+        </label>
+        <label>
+            <input type="radio" name="mode" value="night"> Qorong'i
+        </label>
+    </div>
+    <select id="soundSelect">
+        <option value="salom.mp3">Musiqa 1</option>
+        <option value="salom2.mp3">Musiqa 2</option>
+        <option value="salom3.mp3">Musiqa 3</option>
+        <option value="salom4.mp3">Musiqa 4</option>
+        <option value="salom5.mp3">Musiqa 5</option>
+        <option value="salom6.mp3">Musiqa 6</option>
+        <option value="salom7.mp3">Musiqa 7</option>
+        <option value="salom8.mp3">Musiqa 8</option>
+        <option value="salom9.mp3">Musiqa 9</option>
+        <option value="salom10.mp3">Musiqa 10</option>
+    </select>
+    <div class="container">
+        <h1 class="time" id="time"></h1>
+        <input type="time" id="alarmTime" />
+        <button id="setAlarm">Budilnikni o'rnatish</button>
+        <p id="alarmStatus"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.time {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+input[type="time"] {
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+body.day {
+    background-color: #fff;
+    color: #000;
+}
+
+body.night {
+    background-color: #282c34;
+    color: #fff;
+}
+
+.a1{
+    position: absolute;
+    margin-top: -600px;
+}
+
+/* O'rtacha ekranlar */
+@media (min-width: 601px) {
+    .item {
+        flex: 1 1 48%; /* Ikkita ustun */
+    }
+}
+
+/* Katta ekranlar */
+@media (min-width: 901px) {
+    .item {
+        flex: 1 1 30%; /* Uchta ustun */
+    }
+}
+
+
+
